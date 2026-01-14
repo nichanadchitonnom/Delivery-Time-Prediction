@@ -1,0 +1,23 @@
+[2026-01-14 15:58:09,823] 24 root - INFO - \U0001f69a Data Ingestion started
+[2026-01-14 15:58:09,829] 29 root - INFO - Delivery dataset loaded
+[2026-01-14 15:58:09,843] 36 root - INFO - Raw data saved
+[2026-01-14 15:58:09,853] 49 root - INFO - Train-test split completed
+[2026-01-14 15:58:09,854] 17 root - INFO - Starting feature engineering: Peak features
+[2026-01-14 15:58:09,864] 39 root - INFO - Peak features created successfully
+[2026-01-14 15:58:09,865] 17 root - INFO - Starting feature engineering: Peak features
+[2026-01-14 15:58:09,867] 39 root - INFO - Peak features created successfully
+[2026-01-14 15:58:09,867] 81 root - INFO - Starting data transformation
+[2026-01-14 15:58:09,876] 64 root - INFO - Numerical columns: ['Distance_km', 'Preparation_Time_min', 'Courier_Experience_yrs', 'Peak_Score', 'Is_Peak_Hour']
+[2026-01-14 15:58:09,876] 65 root - INFO - Categorical columns: ['Weather', 'Time_of_Day', 'Traffic_Level', 'Vehicle_Type']
+[2026-01-14 15:58:09,907] 28 root - INFO - Splitting train and test arrays
+[2026-01-14 15:58:09,907] 60 root - INFO - Training model: Linear Regression
+[2026-01-14 15:58:09,940] 66 root - INFO - Linear Regression | MAE: 6.128 | RMSE: 9.282 | R2: 0.808
+[2026-01-14 15:58:09,940] 60 root - INFO - Training model: Decision Tree
+[2026-01-14 15:58:09,962] 66 root - INFO - Decision Tree | MAE: 10.640 | RMSE: 15.324 | R2: 0.476
+[2026-01-14 15:58:09,962] 60 root - INFO - Training model: Random Forest
+[2026-01-14 15:58:10,777] 66 root - INFO - Random Forest | MAE: 6.719 | RMSE: 9.662 | R2: 0.792
+[2026-01-14 15:58:10,777] 60 root - INFO - Training model: XGBoost
+[2026-01-14 15:58:11,090] 66 root - INFO - XGBoost | MAE: 7.354 | RMSE: 10.275 | R2: 0.764
+[2026-01-14 15:58:11,090] 60 root - INFO - Training model: LightGBM
+[2026-01-14 15:58:18,982] 66 root - INFO - LightGBM | MAE: 6.919 | RMSE: 9.677 | R2: 0.791
+[2026-01-14 15:58:18,983] 80 root - INFO - Best model saved with R2 score: 0.808

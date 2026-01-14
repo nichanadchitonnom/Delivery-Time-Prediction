@@ -1,0 +1,5 @@
+[2026-01-14 15:54:16,612] 24 root - INFO - \U0001f69a Data Ingestion started
+[2026-01-14 15:54:16,625] 29 root - INFO - Delivery dataset loaded
+[2026-01-14 15:54:16,632] 36 root - INFO - Raw data saved
+[2026-01-14 15:54:16,647] 49 root - INFO - Train-test split completed
+[2026-01-14 15:54:16,647] 81 root - INFO - Starting data transformation

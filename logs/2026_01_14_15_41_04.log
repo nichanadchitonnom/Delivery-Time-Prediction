@@ -1,0 +1,8 @@
+[2026-01-14 15:41:04,425] 24 root - INFO - \U0001f69a Data Ingestion started
+[2026-01-14 15:41:04,427] 29 root - INFO - Delivery dataset loaded
+[2026-01-14 15:41:04,432] 36 root - INFO - Raw data saved
+[2026-01-14 15:41:04,436] 49 root - INFO - Train-test split completed
+[2026-01-14 15:41:04,456] 88 root - INFO - Read train and test data successfully
+[2026-01-14 15:41:04,457] 64 root - INFO - Numerical columns: ['Distance_km', 'Preparation_Time_min', 'Courier_Experience_yrs', 'Peak_Score', 'Is_Peak_Hour']
+[2026-01-14 15:41:04,457] 65 root - INFO - Categorical columns: ['Weather', 'Time_of_Day', 'Traffic_Level', 'Vehicle_Type']
+[2026-01-14 15:41:04,457] 100 root - INFO - Applying preprocessing on training and testing data
