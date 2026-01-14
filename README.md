@@ -58,13 +58,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3️. Train Model
-
-```bash
-python -m src.pipeline.Training_pipeline
-```
-
-### 4️. Run Web App
+### 3. Run Web App
 
 ```bash
 python app.py
@@ -80,4 +74,5 @@ http://127.0.0.1:5000
 - Learned how feature engineering (e.g., Peak_Score and Is_Peak_Hour) can significantly impact model performance.
 - Gained experience in model selection and hyperparameter tuning, understanding why experimental results may differ from production pipelines.
 - Deployed a trained model using Flask, enabling real-time delivery time prediction via a web interface.
+
 
