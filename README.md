@@ -75,4 +75,20 @@ http://127.0.0.1:5000
 - Gained experience in model selection and hyperparameter tuning, understanding why experimental results may differ from production pipelines.
 - Deployed a trained model using Flask, enabling real-time delivery time prediction via a web interface.
 
+## Model Interpretability (SHAP Analysis)
+SHAP helps explain how each feature influences the model output by assigning an importance value to every feature for each prediction.
+
+### Key Insights from SHAP Analysis
+- Distance_km is the most influential feature, with longer distances significantly increasing predicted delivery time.
+- Preparation_Time_min strongly affects delivery duration, confirming that longer food preparation leads to delayed deliveries.
+- Peak_Score, a custom engineered feature derived from Time_of_Day and Traffic_Level, plays a crucial role in capturing peak-hour congestion effects.
+- Traffic_Level shows a clear directional impact: low traffic reduces delivery time, while high traffic increases it.
+- Courier_Experience_yrs contributes moderately, where more experienced couriers tend to deliver faster.
+
+These insights can be used to:
+- Optimize delivery routing and staffing during peak hours
+- Reduce preparation bottlenecks at restaurants
+- Improve ETA accuracy by focusing on the most impactful variables
+
+
 
